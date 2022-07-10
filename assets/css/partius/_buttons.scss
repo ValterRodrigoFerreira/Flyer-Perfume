@@ -1,0 +1,20 @@
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  font-family: "Montserrat", sans-serif;
+  color: $White;
+  height: 70px;
+  width: 470px;
+  background-color: $Dark-cyan;
+  border-radius: 10px;
+  font-size: calculator-rem(32);
+  margin-top: calculator-rem(64);
+
+  &:hover {
+    filter: brightness(0.9);
+    color: $White;
+  }
+}
